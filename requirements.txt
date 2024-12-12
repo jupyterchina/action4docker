@@ -1,0 +1,64 @@
+# 核心数据科学
+numpy==1.26.4
+pandas==2.2.1
+scipy==1.12.0
+
+# 数据可视化
+matplotlib==3.8.3
+seaborn==0.13.2
+plotly==5.19.0
+bokeh==3.3.4
+mplfinance==0.12.10b0
+
+# 机器学习
+scikit-learn==1.4.1.post1
+xgboost==2.0.3
+lightgbm==4.3.0
+
+# AutoML工具
+auto-sklearn==0.15.0
+tpot==0.12.1
+h2o==3.44.0.3
+pycaret==3.2.0
+flaml==2.1.1
+
+# 金融分析
+tushare==1.2.89
+yfinance==0.2.37
+pyportfolioopt==1.5.5
+mlfinlab==1.0.0
+pyqstrat==0.3.1
+QuantLib==1.32
+
+# 自然语言处理
+nltk==3.8.1
+spacy==3.7.4
+gensim==4.3.2
+
+# 生物信息
+biopython==1.83
+pysam==0.22.0
+
+# 数据采集
+scrapy==2.11.1
+requests==2.31.0
+
+# 开发工具
+ipython==8.22.2
+luigi==3.4.0
+mlflow==2.10.2
+
+# 时间序列
+prophet==1.1.5
+pmdarima==2.0.4
+arch==6.2.0
+
+# 统计和评估
+statsmodels==0.14.1
+optuna==3.5.0
+shap==0.44.1
+
+# 报表生成
+jupyter==1.0.0
+streamlit==1.31.1
+dash==2.15.0
