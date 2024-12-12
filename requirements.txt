@@ -26,7 +26,7 @@ flaml==2.1.1
 tushare==1.2.89
 yfinance==0.2.37
 pyportfolioopt==1.5.5
-mlfinlab==1.0.0
+pandas_ta==0.3.14b0
 pyqstrat==0.3.1
 QuantLib==1.32
 
