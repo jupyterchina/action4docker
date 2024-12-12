@@ -99,16 +99,7 @@ nose==1.3.7
 sphinx==7.2.6
 protobuf==4.25.2
 
-# 基础工具
-requests==2.31.0
-urllib3==2.2.0
-pip==24.0.0
-wheel==0.42.0
-six==1.16.0
-jinja2==3.1.3
-pillow==10.2.0
-psutil==5.9.8
-pyyaml==6.0.1
+
 
 # 数据抓取和爬虫
 scrapy==2.11.1
