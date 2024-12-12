@@ -49,7 +49,6 @@ networkx==3.2.1
 tushare==1.2.89
 yfinance==0.2.37
 pyportfolioopt==1.5.5
-ta-lib==0.4.28
 quantstats==0.0.62
 
 # 自然语言处理
