@@ -7,7 +7,26 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y \
     build-essential \
     git \
+    cmake \
+    python3-dev \
+    gcc \
+    g++ \
+    gfortran \
+    libopenblas-dev \
+    liblapack-dev \
+    pkg-config \
+    wget \
     && rm -rf /var/lib/apt/lists/*
+
+# 安装 ta-lib
+RUN wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz && \
+    tar -xzf ta-lib-0.4.0-src.tar.gz && \
+    cd ta-lib/ && \
+    ./configure --prefix=/usr && \
+    make && \
+    make install && \
+    cd .. && \
+    rm -rf ta-lib-0.4.0-src.tar.gz ta-lib/
 
 # 复制requirements文件
 COPY requirements.txt .
