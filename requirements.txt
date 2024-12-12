@@ -8,6 +8,9 @@ numexpr==2.9.0
 patsy==0.5.6
 cloudpickle==3.0.0
 dill==0.3.8
+mlxtend==0.22.0
+imbalanced-learn==0.10.1
+
 
 # 并行计算和性能优化
 dask==2024.2.1
@@ -80,18 +83,7 @@ openpyxl==3.1.2
 xlrd==2.0.1
 cython==3.0.8
 
-# Jupyter扩展
-ipywidgets==8.1.2
-ipympl==0.9.3
-ipykernel==6.29.2
-jupyterlab-widgets==3.0.9
-widgetsnbextension==4.0.10
-nbconvert==7.16.1
-nbformat==5.9.2
-nbclient==0.9.0
-notebook==7.1.1
-jupyter-server-proxy==4.1.2
-jupyterlab-git==0.50.0
+
 
 # 报表和仪表板
 streamlit==1.31.1
